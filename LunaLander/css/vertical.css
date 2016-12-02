@@ -1,0 +1,102 @@
+body{
+	background-image: url("../img/FondoV.png");
+	height:auto;
+	width: auto;
+	background-repeat: repeat-y;
+	padding:0px;
+	margin:0px;
+	
+
+}
+
+#moon{
+	background-image: url("img/MoonV.png"); 
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	height: 25%;
+	
+	
+}
+#cohete{
+	position: absolute;
+	left: 45%;
+	top: 5%;
+	
+	height: 5%;
+	
+}
+
+#tierra{
+	max-width: 100%;
+	position: absolute;
+	left: 20%;
+	top: 25%;
+	height: 5%;
+}
+
+#alien{
+	max-width: 100%;
+	position: fixed;
+	left: 75%;
+	top: 84%;
+	height: 8%;
+}
+.a{}
+.b{}
+.c{}
+.a,.b,.menu{display:inline-block;width:33.33%;height:100%;float:left;}
+
+
+
+	
+.play,.opcion {display:inline-block;width:20%;height:20%;float:left; }
+
+/* nuevo */
+
+#menu{
+/*estilo de nuestra lista*/
+list-style:none;
+width:auto;
+position:relative;
+display:block;
+height:36px;
+}
+
+#menu li{
+/*estilo a cada uno de los elementos(li) de nuestro menu*/
+float:left;/* propiedad importante para que nuestro menu tome la forma horizontal*/
+display:block;
+position:relative;
+}
+
+#menu li a{
+/*estilo de los enlaces */
+color:#fff;
+text-decoration:none;
+font-family:Helvetica, Arial, sans-serif;
+font-size:14px;
+line-height:1.3em;
+padding:10px 14px 8px 16px;
+display:block;
+}
+#menu li ul{
+/*estilo de los submenus*/
+width:120px;
+background:#F8F8F8;
+border:1px #ccc solid;
+display:none; /*importante para que los submenus no estén visibles*/
+position:absolute;
+z-index:999;
+margin-top:0px;
+}
+#menu li ul li{
+/*estilo a cada uno de los elementos(li) de nuestro submenu*/
+width:100%;
+list-style:none;
+display:none;
+}
+
+
+ 
+

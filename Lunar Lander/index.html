@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Lunar Lander</title>
+ <meta charset="UTF-8"/>
+ <meta name="description" content="Videojuego de Lunar Lander">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel='stylesheet' media='screen and (min-width: 961px)' href='css/d.css'>
+ <link rel='stylesheet' media='screen and (max-width: 960px)' href='css/m.css'>
+ <script src="js/js.js"></script>
+</head>
+
+<body>
+ 
+ <div>
+ <img id="nave" src="img/Cohete.png" alt="img nave">
+</div>
+
+<div>
+	<img id="tierra" src="img/Tierra.png" alt="tierra">
+</div>
+
+
+<div>
+	<img id="alien" src="img/Alien.png" alt="alien">
+</div>
+<div>
+			<img id="moon" src="img/Moon.png" alt="Luna">
+</div>
+
+ <div class="a">
+ 
+ <div id="showm">show menu</div>
+	<ul id="cpanel">
+		<li>Velocidad <span id="velocidad">100</span> m/s</li>
+		<li>Fuel <span id="fuel">100</span> l</li>
+		<li>Altura <span id="altura">70</span> m</li>
+	</ul>
+ </div>
+ 
+ <div class="b">.</div>
+ 
+ <div class="c">
+	
+	<div id="hidem">hide menu</div>
+					
+						<ul id="menu">
+							<li>		
+										<a id="reiniciar" href="javascript:location.reload()">Reiniciar</a>
+							</li>
+							<li>
+										<a  id="opciones">Opciones</a>
+								<ul> 
+										<li><a id ="inst">Instrucciones</a></li>
+										
+								</ul>
+							</li>
+						<li>
+							<a id ="about">Acerca de..</a>
+						</li>
+					</ul>	
+	</div>
+		
+	<div class="acerca">
+	<p id="about2">Creado por Andres Rivero Ledo.</p>
+	<p>Referencia www.w3schools.com</p>
+	<button id="continua" type="button">continuar</button>
+	</div>
+	
+	<div class="instruccion">
+	<p id="instru">El objetivo de Lunar Lander es pilotear un módulo lunar y prepararlo 
+			para alunizarlo en la luna.  El juego termina cuando al jugador se le acaba el combustible
+			y se estrella en la superficie lunar.</p>
+	<button id="continue" type="button">continuar</button>
+	</div>
+	
+	
+ 
+ 
+
+  <div class="d">.</div>
+ 
+ 
+</body>
+
+</html>

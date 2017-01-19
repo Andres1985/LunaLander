@@ -1,0 +1,174 @@
+body{
+	background-image: url("../img/Fondo.png");
+	height:20%;
+	padding:0%;
+	margin:0%;
+	cursor: default;
+}
+
+
+/*Imagen Luna*/
+#moon{
+	background-image: url("../img/Moon.png"); 
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	height: 35%;	
+}
+
+#cpanel {
+	border-style: outset;
+	background-color: #910600;
+	list-style-type: none;
+	width: 30%;
+	height: 20%;
+	margin: 10%;
+	padding: 5%;
+	font-family: fantasy;
+	
+}
+
+		  
+.a{}
+
+.b{}
+
+.c{display:block}
+
+.a,.b,.c{display:inline-block;
+         width:33.33%;
+		 height:100%;
+		 float:left;}
+
+		 
+/*imagen nave*/	  
+#nave img{height:10%;}
+   
+#nave{text-align:center;
+		z-index:3;
+      position:fixed;
+	  top:10%;
+	  left: 40%;
+	  width:10%;
+	  height:20%}
+	  
+/*Imagen tierra*/
+#tierra{
+	max-width: 100%;
+	position: absolute;
+	left: 10%;
+	top: 35%;
+	height: 40%;
+}
+/*Imagen alien*/
+#alien{
+	max-width: 100%;
+	position: fixed;
+	left: 78%;
+	top: 81%;
+	height: 8%;
+}
+
+
+
+#hidem,#showm{display:none}
+
+#menu{
+/*estilo de nuestra lista*/
+list-style:none;
+width:auto;
+position:relative;
+display:block;
+height:36px;
+}
+
+#menu li{
+/*estilo a cada uno de los elementos(li) de nuestro menu*/
+
+float:left;/* propiedad importante para que nuestro menu tome la forma horizontal*/
+display:block;
+position:relative;
+}
+
+#menu li a{
+/*estilo de los enlaces */
+color:#fff;
+text-decoration:none;
+font-family:Helvetica, Arial, sans-serif;
+font-size:20px;
+line-height:1.3em;
+padding:10px 14px 8px 16px;
+display:block;
+color: yellow;
+cursor: pointer;
+font-family: fantasy;
+}
+
+#menu li ul{
+/*estilo de los submenus*/
+display:none; /*importante para que los submenus no estén visibles*/
+position:absolute;
+z-index:999;
+
+}
+
+#menu li ul li{
+/*estilo a cada uno de los elementos(li) de nuestro submenu*/
+
+}
+
+#menu li ul li a{
+/*estilo a cada uno de los enlaces de nuestro submenu*/
+
+}
+
+#menu li ul li a:hover{
+/*un poco de decoracion a los enlaces de nuestro submenu al estar el cursor sobre ellos con ayuda de el selector :hover */
+color:#444;
+text-decoration:underline;
+color: red;
+}
+
+#menu li:hover ul{
+/*con este selector definimos que cuando el cursor este sobre un elemento(li) que contenga un elemento(ul) dentro le asigne la propiedad display:block; para que este a su vez pase de invisible a visible*/
+ color: red;
+ display:block;
+}
+
+#menu li:hover a{
+/*con este selector definimos que cuando el cursor este sobre un elemento(li) que contenga un elemento(a) pase a color rojo cuando el raton le pase por encima*/
+	 color: red;
+	
+}
+
+/*Con este selector definimos el panel gráfico de Acerca de... */
+.acerca{background-color: #910600;
+		border-style: outset; 
+		position: fixed; 
+		left: 30%; 
+		right:20%; 
+		top: 15%; 
+		display:none; 
+		z-index:3;
+		padding : 20px;
+		width: 30%;
+		height: 30%;
+		cursor: default;
+		font-size: 150%;
+		}
+		
+		
+/*Con este selector definimos el panel gráfico de Instrucciones */
+.instruccion{
+	background-color: #910600; 
+	border-style: outset; 
+	position: fixed; 
+	left: 20%; 
+	right:20%; 
+	top: 15%; 
+	display:none; 
+	z-index:4;
+	padding : 5%;
+	font-size: 150%;
+	
+	}
